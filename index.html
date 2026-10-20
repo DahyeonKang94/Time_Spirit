@@ -14,9 +14,10 @@
 
     html, body {
       margin: 0;
+      padding: 0;
       width: 100%;
       min-height: 100%;
-      background: white;
+      background: #ffffff;
     }
 
     body {
@@ -26,44 +27,46 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 20px 12px;
+      padding: 30px 16px;
       font-family: Arial, sans-serif;
     }
 
     .spirit {
       display: block;
       width: auto;
-      height: auto;
       max-width: 100%;
-      max-height: 65vh;
-      max-height: 65dvh;
+      max-height: 75vh;
+      max-height: 75dvh;
       object-fit: contain;
     }
 
     .links {
       display: flex;
-      flex-wrap: wrap;
       justify-content: center;
       align-items: center;
-      gap: 12px;
-      margin-top: 20px;
+      gap: 14px;
+      margin-top: 28px;
       font-size: 12px;
-      text-align: center;
+      letter-spacing: 0.2px;
     }
 
     .links a {
-      color: #111;
+      color: #111111;
+      text-decoration: none;
+    }
+
+    .links a:hover {
       text-decoration: underline;
-      text-underline-offset: 3px;
     }
 
     .divider {
-      color: #999;
+      color: #999999;
     }
   </style>
 </head>
 
 <body>
+
   <img
     class="spirit"
     src="./TIME.gif"
@@ -71,15 +74,18 @@
   >
 
   <div class="links">
-    <a href="https://www.dahyeonkang.com">
+    <a href="https://www.dahyeonkang.com"
+       target="_blank" rel="noopener noreferrer">
       www.dahyeonkang.com
     </a>
 
     <span class="divider">|</span>
 
-    <a href="https://www.instagram.com/dahyeonkang_/">
+    <a href="https://www.instagram.com/dahyeonkang_/"
+       target="_blank" rel="noopener noreferrer">
       @dahyeonkang_
     </a>
   </div>
+
 </body>
 </html>
